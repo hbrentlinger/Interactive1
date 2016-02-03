@@ -1,0 +1,75 @@
+body {
+	background-color: lightblue
+}
+
+a:link
+{
+	color: orange;
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 36;
+}
+a:visited
+{ 
+	color: green;
+	font-family: helvetica;
+	font-size: 36;
+}
+}
+
+p: 
+{
+	font:helvetica;
+	font-size: 24;
+	text-align: center;
+	font-style: bold;
+	margin: auto;
+}
+
+#container
+{
+	width:1000px;
+	height:700px;
+	background-color: white;
+	margin: auto;
+	padding: 40px;
+	font-family: helvetica;
+	font-size: 36px;
+	text-align: center;
+	border: 6px solid #000000;
+
+}
+
+.sidebar
+{
+	background-color: white;
+	height: 200px;
+	width: 100;
+	color: blue;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: helvetica;
+
+}
+
+#box
+{
+	width: 1000px;
+	height: 100px;
+	color: white;
+	background-color: black;
+	float: left;
+	margin: 30px;
+}
+
+#rectangle {
+	width: 200px;
+	height: 300px;
+	background-color: lightgrey;
+	float: left;
+	margin: 30px;
+
+}

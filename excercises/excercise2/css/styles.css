@@ -1,0 +1,38 @@
+body {
+	background-color: #CFE6E8; 
+
+}
+p {
+	font-family: Didot; 
+	font-size: 10pt; 
+	text-align: center;
+	line-height: 1.5 em;
+
+}
+
+h1 {
+	font-family: Gotham;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: Gotham;
+	text-align: center;
+
+}
+h3 {
+	font-family: Gotham;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	ul {
+	font-family: didot;
+	font-weight: italic;
+	text-align: center;
+	font-size: 10pt;
+	line-height: 1.5 em;
+	text-transform: uppercase;
+
+
+}
