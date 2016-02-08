@@ -1,10 +1,8 @@
-h1 {
-	font-family: gill sans;
-	font-size: 44px;
-}
 
 a {
 	text-decoration: none;
+	font-family: gill sans;
+	font-size: 44px;
 }
 
 a:hover {
