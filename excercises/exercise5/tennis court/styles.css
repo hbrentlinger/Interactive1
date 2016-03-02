@@ -1,0 +1,20 @@
+#container {
+
+width: 800px;
+height: 1000px;
+margin: auto;
+}
+
+#tall {
+
+	width: 100px;
+	height: 500px;
+	background: red;
+}
+
+#long {
+
+width: 600px;
+height: 100px;
+float: left;
+}

@@ -1,0 +1,64 @@
+#container {
+width: 800px;
+height: 1000px;
+margin: auto;
+}
+
+#header {
+
+	width: 800px;
+	height: 100px;
+	background: red;
+
+}
+
+#header2 {
+
+	width: 800px;
+	height: 30px;
+	background: red;
+	
+	margin-top: 10px;
+}
+
+#column1 {
+
+	width: 260px;
+	height: 800px;
+	background: red;
+	margin: auto;
+	margin-top: 10px;
+	float: left;
+
+}
+
+
+#column2 {
+
+	width: 260px;
+	height: 800px;
+	background: red;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	}
+
+#column3 {
+
+	width: 260px;
+	height: 800px;
+	background: red;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	}
+
+#footer {
+
+	width: 800px;
+	height: 100px;
+	background: red;
+	float: left;
+	margin-top: 10px;
+
+}

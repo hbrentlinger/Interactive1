@@ -1,0 +1,21 @@
+#rec {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 20px;
+	float: left;
+}
+
+#rec2 {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background: brown;
+	float: right;
+margin: 20px;
+}
+
+body {
+	background: #000000;
+}

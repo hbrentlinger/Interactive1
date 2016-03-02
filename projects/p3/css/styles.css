@@ -1,0 +1,211 @@
+ #dada1
+ {
+ 	position: absolute;
+ 	top: 250px;
+ 	left: 620px;
+ 	z-index: 100;
+ }
+
+ #dada2
+ {
+ 	position: absolute;
+ 	top: 1700px;
+ 	left: 50px;
+ 	z-index: 100;
+ }
+
+ #dada3
+ {
+ 	position: absolute;
+ 	top: 4705px;
+ 	left: 850px;
+ 	z-index: 100;
+ }
+
+#container {
+	width: 1400px;
+	height: 4800px;
+
+	
+
+	z-index: 1;
+}
+
+
+
+#hand1 {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+#hand2 {
+position: absolute;
+top: 1000px;
+left: 0px;
+}
+
+#hand3 {
+position: absolute;
+top: 1380px;
+left: 1180px;
+}
+ #hand4 {
+ 	position: absolute;
+	top: 2847px;
+	left: 340px;
+	z-index: 2;
+ }
+
+  #hand5 {
+ 	position: absolute;
+	top: 3600px;
+	left: 472px;
+	z-index: 2;
+ }
+
+  #hand6 {
+ 	position: absolute;
+	top:  4180px;
+	left: 1000px;
+	z-index: 2;
+ }
+
+ #hand7 {
+position: absolute;
+top: 4500px;
+left: 0px;
+ }
+
+#hand8 {
+position: absolute;
+top: 540px;
+left: 720px;
+ }
+
+#back {
+	margin-top: 170px;
+}
+
+  #hand9 {
+ 	position: absolute;
+	top:  2000px;
+	left: 430px;
+	z-index: 2;
+ }
+
+ #text {
+ 	position: absolute;
+ 	top: 150px;
+ 	left: 100px;
+ }
+
+ #hand10 {
+ 	position: absolute;
+ 	top: 1390px;
+ 	left: 331px;
+ }
+
+ #hand11
+ {
+ 	position: absolute;
+ 	top: 650px;
+ 	left: 96px;
+ }
+
+
+  #hand12
+ {
+ 	position: absolute;
+ 	top: 2599px;
+ 	left: 866px;
+ }
+
+ #hand13
+ {
+ 	position: absolute;
+ 	top: 3300px;
+ 	left: 1060px;
+ }
+
+ #hand14
+ {
+ 	position: absolute;
+ 	top: 2357px;
+ 	left: 221px;
+ }
+
+ #hand15
+ {
+ 	position: absolute;
+ 	top: 904px;
+ 	left: 960px;
+ }
+
+  #hand16
+ {
+ 	position: absolute;
+ 	top: 2650px;
+ 	left: 0px;
+ }
+
+  #hand17
+ {
+ 	position: absolute;
+ 	top: 4100px;
+ 	left: 144px;
+ }
+
+
+
+ #da2
+ {
+ 	position: absolute;
+ 	top: 850px;
+ 	left: 620px;
+ }
+
+ #lips {
+ 	position: absolute;
+ 	top: 1800px;
+ 	left: 900px;
+ }
+
+#dada {
+	position: absolute;
+	top: 2500px;
+	left: 440px;
+}
+
+
+#hand18 {
+	position: absolute;
+	top: 4415px;
+	left: 940px;
+}
+
+#mouth2 {
+	position: absolute;
+	top: 3250px;
+	left: 50px;
+
+	
+}
+
+#def {
+	position: absolute;
+ 	top: 4840px;
+ 	left: 905px;
+ 	text-align: center;
+ 	font-family: courier;
+ 	font-size: 11pt;
+ 	width: 420px;
+}
+
+
+#mouth3
+{
+	position: absolute;
+	top: 370px;
+	left: 300px;
+}
