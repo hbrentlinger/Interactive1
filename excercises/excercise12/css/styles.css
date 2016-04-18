@@ -1,0 +1,17 @@
+ .box {
+ 	background: light blue;
+ 	color: brown;
+ 	font-size: 36pt;
+ 	font-family: gill sans;
+ 	font-weight: bold;
+ 	width: 400px;
+ 	height: 600px;
+ 	margin-bottom: 300px;
+ 	padding: 30px;
+ 	text-align: center;
+
+ }
+
+ .hover {
+ 	
+ }

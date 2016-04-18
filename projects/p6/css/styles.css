@@ -1,0 +1,955 @@
+ #body {
+ 	background-color: #000000;
+ }
+
+ @keyframes orbit {
+	0% {transform: translatex(0);}
+	50% {transform: translatex(270px);}
+	100% {transform: translatex(0);}
+}
+
+
+ @-webkit-keyframes pulsate {
+    0% { width:1px;height: 1px; opacity: 0.0}
+    10% { width:3px;height: 3px; opacity: .20}
+    20% { width:5px;height: 5px; opacity: .40 }
+    30% { width:7px;height: 7px; opacity: .60 }
+    40% { width:9px;height: 9px; opacity: .80 } 
+    50% { width:11px;height: 11px; opacity: 1.0}
+    60% { width:13px;height: 13px; opacity: .80}
+    70% { width:15px;height: 15px;  opacity: .60}
+    80% { width:17px;height: 17px;  opacity: .40}
+    90% { width:19px;height: 19px;  opacity: .20}
+    100% { width:21px;height: 21px;  opacity: 0.0}
+ }
+
+
+ @keyframes slide {
+	0% {transform: translatex(0);}
+	50% {transform: translatey(10px);}
+	100% {transform: translatex(0);}
+}
+
+
+ @keyframes shoot {
+	0% {position: absolute;
+		top: 50px;
+		left:690px;}
+
+
+	100% {position: absolute;
+		top: 800px;
+		left: 0px;
+}
+
+
+
+
+a:hover {
+	background-color: orange;
+}
+
+
+}
+
+#container {
+	width: 1500px;
+	margin: auto;
+	margin: 100px;
+}
+
+.the {
+	animation-name: pulsate;
+	animation-duration: 4.5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 470px;
+    top: 95px;
+}
+
+
+.planet {
+	animation-name: slide;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 900pt;
+	font-weight: 900;
+	margin-top: 170px;
+	margin-left: 450px;
+	background: white;
+}
+
+
+.somebody {
+	animation-name: pulsate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+
+.has {
+	animation-name: pulsate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 150px;
+    top:100px;
+}
+
+.to {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 260px;
+    top:70px;
+}
+
+.go {
+	animation-name: pulsate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 330px;
+    top:120px;
+}
+
+.polish {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 410px;
+    top: 50px;
+}
+
+
+
+.stars {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 520px;
+    top: 130px;
+}
+
+.theyre1 {
+	animation-name: pulsate;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 570px;
+    top: 70px;
+}
+
+
+.looking {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    position: absolute;
+    left: 630px;
+    top:120px;
+}
+
+.a {
+	animation-name: shoot;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-delay: 5s;
+	font-family: futura;
+	font-size: 7pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 690px;
+    top: 50px;
+}
+
+
+.little {
+	animation-name: pulsate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 720px;
+    top: 90px;
+}
+
+.bit {
+	animation-name: pulsate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 770px;
+    top: 130px;
+}
+
+.dull {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 810px;
+    top: 80px;
+}
+
+.somebody2 {
+	animation-name: pulsate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 870px;
+    top: 50px;
+}
+
+
+.has2 {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 950px;
+    top: 115px;
+}
+
+
+.to2 {
+	animation-name: pulsate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1030px;
+    top: 60px;
+}
+
+
+.go2 {
+	animation-name: pulsate;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1070px;
+    top: 140px;
+}
+
+.polish2 {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1150px;
+    top: 50px;
+}
+
+.the2 {
+	animation-name: pulsate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1200px;
+    top: 115px;
+}
+
+.stars2 {
+	animation-name: pulsate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1300px;
+    top: 75px;
+}
+
+.for {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 120px;
+    top: 250px;
+}
+
+.the2 {
+	animation-name: pulsate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 180px;
+    top: 300px;
+}
+
+.eagles {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 225px;
+    top: 240px;
+}
+
+
+
+.and {
+	animation-name: pulsate;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 300px;
+    top: 283px;
+}
+
+.starlings {
+	animation-name: pulsate;
+	animation-duration: 3.9s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 370px;
+    top: 230px;
+}
+
+
+.and2 {
+	animation-name: pulsate;
+	animation-duration: 3.4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+}
+
+.gulls {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 512px;
+    top: 220px;
+}
+
+.have {
+	animation-name: pulsate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 570px;
+    top: 333px;
+}
+
+.all {
+	animation-name: pulsate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 650px;
+    top: 275px;
+}
+
+
+.been {
+	animation-name: pulsate;
+	animation-duration: 3.2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 710px;
+    top: 215px;
+}
+
+.complaining {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 750px;
+    top: 350px;
+}
+
+.theyre {
+	animation-name: pulsate;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 830px;
+    top: 207px;
+}
+
+.tarnished {
+	animation-name: pulsate;
+	animation-duration: 4.6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 900px;
+    top: 282px;
+}
+
+.ampersand {
+	animation-name: slide;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 100pt;
+	font-weight: 900;
+	position: absolute;
+	left: 1050px;
+	top: 180px;
+}
+
+.worn {
+	animation-name: pulsate;
+	animation-duration: 3.3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1210px;
+    top: 250px;
+}
+
+
+.they {
+	animation-name: pulsate;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 53px;
+    top: 380px;
+}
+
+.say {
+	animation-name: pulsate;
+	animation-duration: 4.6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 117px;
+    top: 500px;
+}
+
+.they2 {
+	animation-name: pulsate;
+	animation-duration: 1.8s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 196px;
+    top: 430px;
+}
+
+.want {
+	animation-name: pulsate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 280px;
+    top: 506px;
+}
+
+
+.new {
+	animation-name: pulsate;
+	animation-duration: 2.1s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 330px;
+    top: 420px;
+}
+
+.ones {
+	animation-name: pulsate;
+	animation-duration: 5.2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 430px;
+    top: 501px;
+}
+
+.we {
+	animation-name: pulsate;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 498px;
+    top: 423px;
+}
+
+.can {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 558px;
+    top: 540px;
+}
+
+.not {
+	animation-name: pulsate;
+	animation-duration: 2;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 630px;
+    top: 453px;
+}
+
+.afford {
+	animation-name: pulsate;
+	animation-duration: 6.4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 760px;
+    top: 500px;
+}
+
+.period {
+	animation-name: slide;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 100pt;
+	font-weight: 900;
+	position: absolute;
+	left: 780px;
+	top: 250px;
+}
+
+.so {
+	animation-name: pulsate;
+	animation-duration: 1.8s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 870px;
+    top: 427px;
+}
+
+.go3 {
+	animation-name: pulsate;
+	animation-duration: 3.3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 930px;
+    top: 435px;
+}
+
+.get {
+	animation-name: pulsate;
+	animation-duration: 4.2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 980px;
+    top: 510px;
+}
+
+.your {
+	animation-name: pulsate;
+	animation-duration: 5.5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1090px;
+    top: 430px;
+}
+
+
+.rags {
+	animation-name: pulsate;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1180px;
+    top: 500px;
+}
+
+.andand {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1300px;
+    top: 420px;
+}
+
+
+.polish3 {
+	animation-name: pulsate;
+	animation-duration: 1.8s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 213px;
+    top: 670px;
+}
+
+.your2 {
+	animation-name: pulsate;
+	animation-duration: 8.4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 333px;
+    top: 590px;
+}
+
+
+.jars {
+	animation-name: pulsate;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 5pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 442px;
+    top: 668px;
+}
+
+
+.somebody6 {
+	animation-name: pulsate;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	amimation-delay:3s;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 570px;
+    top: 630px;
+}
+
+.has3 {
+	animation-name: pulsate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 690px;
+    top: 712px;
+}
+
+.to3 {
+	animation-name: pulsate;
+	animation-duration: 4.4s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 796px;
+    top: 624px;
+}
+
+.go3 {
+	animation-name: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 894px;
+    top: 690px;
+}
+
+.polish4 {
+	animation-name: pulsate;
+	animation-duration: 1.9s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1050px;
+    top: 630px;
+}
+
+
+.the3 {
+	animation-name: pulsate;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1190px;
+    top: 713px;
+}
+
+.stars3 {
+	animation-name: pulsate;
+	animation-duration: 2.3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1300px;
+    top: 650px;
+}
+
+.starlink {
+	animation-name: slide;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 80pt;
+	font-weight: 900;
+	position: absolute;
+	left: 170px;
+	top: 540px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover; {
+	color: red;
+}
+
+a:visited; {
+	color: black;
+}
+
+
+.o {
+	font-size: 140pt;
+	font-family: futura;
+	position: absolute;
+	top: 150px;
+	left: 873px;
+}
+#poem {
+	text-align: left;
+	font-family: futura;
+	font-size: 11pt;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+
+.credit {
+
+	text-align: left;
+	font-family: futura;
+	font-size: 8pt;
+	
+}
+
+#orbit {
+	animation-name: orbit;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 20pt;
+	position: absolute;
+	top: 255px;
+	left: 810px;
+	-webkit-animation-timing-function: linear;
+
+
+}
+
+#poemcontainer {
+	width: 2000px;
+	height: 1000px;
+	top: 0px;
+	margin: 150px;
+}
+
+.object {
+	animation-name: pulsate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1030px;
+    top: 60px;
+}
+
+.object2 {
+	animation-name: pulsate;
+	animation-duration: 4.2s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 800px;
+    top: 130px;
+}
+
+.object3 {
+	animation-name: pulsate;
+	animation-duration: 2.3s;
+	animation-iteration-count: infinite;
+	font-family: futura;
+	font-size: 8pt;
+	-webkit-animation-timing-function: ease-in;
+    position: absolute;
+    left: 1130px;
+    top: 200px;
+}
+
+
