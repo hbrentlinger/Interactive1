@@ -30,6 +30,14 @@
 	100% {transform: translatex(0);}
 }
 
+ @keyframes flash {
+	0% {position: absolute;
+    left: 796px;
+    top: 624px;
+
+    100% {position: absolute;
+    	top: 200px;
+    	left: 0px;}
 
  @keyframes shoot {
 	0% {position: absolute;
@@ -785,8 +793,9 @@ a:hover {
 }
 
 .to3 {
-	animation-name: pulsate;
-	animation-duration: 4.4s;
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-delay:2s;
 	animation-iteration-count: infinite;
 	font-family: futura;
 	font-size: 8pt;
